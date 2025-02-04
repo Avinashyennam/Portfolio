@@ -19,7 +19,8 @@ import {
   budget_tracker,
   collaboration,
   ecart,
-  rathriconstructions
+  rathriconstructions,
+  fotos
 } from "../assets";
 
 export const navLinks = [
@@ -47,7 +48,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "DevOps",
+    title: "Docker",
     icon: mobile,
   },
   {
@@ -113,6 +114,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Developer",
+    company_name: "Fotos",
+    icon: fotos,
+    iconBg: "#E6DEDD",
+    date: "December 2024 - Present",
+    points: [
+      "Developed and optimized full-stack web applications using MERN stack and Next.js, improving overall system efficiency.",
+      "Integrated scalable storage solutions using PostgreSQL and optimized database queries for 20% faster performance.",
+      "Containerized services using Docker for consistent development and deployment across environments.",
+      "Maintained project versioning on GitHub, adhering to best practices in code quality and peer reviews.",
+    ]
+  },
+  {
     title: "Fullstack Developer",
     company_name: "Rathri Constructions",
     icon: rathriconstructions,
@@ -124,7 +138,7 @@ const experiences = [
       "Conducted A/B testing on key features, resulting in a 15% higher conversion rate for property inquiries.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ]
-  },
+  }
 ];
 
 const testimonials = [

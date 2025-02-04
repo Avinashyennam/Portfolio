@@ -23,6 +23,7 @@ import expressjs from "./tech/expressjs.png"
 import nextjs from "./tech/nextjs.png"
 
 import rathriconstructions from "./company/rathriconstructions.png";
+import fotos from "./company/monotype-nobg-black.svg";
 
 import budget_tracker from "./budget_tracker.png";
 import collaboration from "./collaboration.png";
@@ -54,6 +55,7 @@ export {
   // threejs,
 
   rathriconstructions,
+  fotos,
 
   budget_tracker,
   collaboration,
