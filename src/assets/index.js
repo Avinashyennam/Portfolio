@@ -21,6 +21,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import expressjs from "./tech/expressjs.png"
 import nextjs from "./tech/nextjs.png"
+import postman from "./tech/postman.png";
+import jenkins from "./tech/jenkins.png";
+import devops from "./tech/devops.png";
+import linux from "./tech/linux.png";
 
 import rathriconstructions from "./company/rathriconstructions.png";
 import fotos from "./company/monotype-nobg-black.svg";
@@ -52,6 +56,10 @@ export {
   redux,
   tailwind,
   typescript,
+  postman,
+  jenkins,
+  devops,
+  linux,
   // threejs,
 
   rathriconstructions,

@@ -16,6 +16,11 @@ import {
   nextjs,
   expressjs,
   docker,
+  postman,
+  jenkins,
+  devops,
+  linux,
+
   budget_tracker,
   collaboration,
   ecart,
@@ -48,7 +53,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Docker",
+    title: "DevOps",
     icon: mobile,
   },
   {
@@ -105,6 +110,22 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "postman",
+    icon: postman
+  },
+  {
+    name: "linux",
+    icon: linux
+  },
+  {
+    name: "devops",
+    icon: devops
+  },
+  {
+    name: "jenkins",
+    icon: jenkins
   },
   {
     name: "docker",
