@@ -22,7 +22,7 @@ import typescript from "./tech/typescript.png";
 import expressjs from "./tech/expressjs.png"
 import nextjs from "./tech/nextjs.png"
 import postman from "./tech/postman.png";
-import jenkins from "./tech/jenkins.png";
+import jenkins from "./tech/Jenkins.png";
 import devops from "./tech/devops.png";
 import linux from "./tech/linux.png";
 
