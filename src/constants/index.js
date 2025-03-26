@@ -15,12 +15,15 @@ import {
   git,
   nextjs,
   expressjs,
+  linux,
   docker,
   budget_tracker,
   collaboration,
   ecart,
   rathriconstructions,
-  fotos
+  fotos,
+  jenkins,
+  postgresql
 } from "../assets";
 
 export const navLinks = [
@@ -48,7 +51,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Docker",
+    title: "DevOps",
     icon: mobile,
   },
   {
@@ -58,14 +61,7 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  
   {
     name: "JavaScript",
     icon: javascript,
@@ -83,8 +79,8 @@ const technologies = [
     icon: nextjs
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "PostgreSql",
+    icon: postgresql,
   },
   {
     name: "Tailwind CSS",
@@ -110,6 +106,18 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "linux",
+    icon: linux,
+  },
+  {
+    name: "jenkins",
+    icon: jenkins,
+  },
+  // {
+  //   name: "jenkins",
+  //   icon: jenkins,
+  // },
 ];
 
 const experiences = [
